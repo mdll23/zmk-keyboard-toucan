@@ -58,10 +58,10 @@
         adj {
             display-name = "ADJ";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &trans
-                &kp ESC   &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                        &trans &mo NAV &trans   &kp RET      &mo 2       &trans
+                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &uc 0xE4 0xC4       &kp C_MUTE  &kp C_VOL_UP &trans &trans &trans
+                &kp ESC   &trans &kp F4 &kp F5 &kp F6 &kp F11   &uc 0xF6 0xD6       &trans      &trans       &trans &trans &trans
+                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &uc 0xFC 0xDC       &trans      &trans       &trans &trans &trans
+                                        &trans &mo NAV &trans   &kp RET             &mo 2       &trans
             >;
         };
         extra_1 {
