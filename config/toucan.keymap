@@ -10,7 +10,7 @@
 #define ADJ  3
 
 &uc {
-  default-mode = <UC_MODE_LINUX>;  // Replace with desired input system.
+  default-mode = <UC_MODE_LINUX_ALT>;
 };
 
 / {
